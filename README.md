@@ -3,19 +3,22 @@
 This is a Svelte5+SvelteKit implementation of [versus-js](https://github.com/jbanes/versus-js). The goal was to end up with a more realistic project that was more readable.
 
 LOC: longer (mostly because of readability)
+
 File size: smaller, even though this project includes a router etc
 
 ## Important files
 
 `+layout.svelte` - wraps the whole app and puts the Pager components and main content on every page.
+
 `/lib/Pager.svelte` - Pager component which renders the navbar.
+
 `/1` up to 5 - real routes with HTML content.
 
 ## Improvements
 
 - Title and meta desc tags were added.
 - Pager div tag changed to nav.
-- Pager has real links instead of just clickable spans.  
+- Pager has anchor tags instead of just clickable spans.  
 - Pager sets `aria-current` on current page.
 - Red color changed to FireBrick (WCAG).
 - Pager uses `aria-current` for the color.
