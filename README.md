@@ -8,11 +8,11 @@ File size: smaller, even though this project includes a router etc
 
 ## Important files
 
-`+layout.svelte` - wraps the whole app and puts the Pager components and main content on every page.
+[+layout.svelte](https://github.com/henrikvilhelmberglund/versus-jquery-svelte/blob/main/src/routes/%2Blayout.svelte) - wraps the whole app and puts the Pager components and main content on every page.
 
-`/lib/Pager.svelte` - Pager component which renders the navbar.
+[/lib/Pager.svelte](https://github.com/henrikvilhelmberglund/versus-jquery-svelte/blob/main/src/lib/Pager.svelte) - Pager component which renders the navbar.
 
-`/1` up to 5 - real routes with HTML content.
+[/1](https://github.com/henrikvilhelmberglund/versus-jquery-svelte/tree/main/src/routes/1) up to 5 - real routes with HTML content.
 
 ## Improvements
 
